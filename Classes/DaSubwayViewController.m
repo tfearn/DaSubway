@@ -81,8 +81,8 @@
 
 - (void)handleDoubleTap:(UIGestureRecognizer *)recognizer {
     float zoomScale = self.scrollView.zoomScale;
-    if(zoomScale != 2.0)
-        [self.scrollView setZoomScale:2.0 animated:YES];
+    if(zoomScale != 1.5)
+        [self.scrollView setZoomScale:1.5 animated:YES];
     else
         [self.scrollView setZoomScale:0.5 animated:YES];
 }
