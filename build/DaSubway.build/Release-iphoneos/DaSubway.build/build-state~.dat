@@ -1,0 +1,480 @@
+TDaSubway
+v7
+r0
+t310947398.021810
+cCheck dependencies
+cCpResource build/Release-iphoneos/DaSubway.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/Info.plist DaSubway-Info.plist
+cCompileXIB /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/MainWindow.xib
+cCompileXIB /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubwayViewController.xib
+cCpResource build/Release-iphoneos/DaSubway.app/nysubwaymap.jpg nysubwaymap.jpg
+cCopyPNGFile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway-icon.png DaSubway-icon.png
+cProcessPCH /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch.gch DaSubway_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch.gch DaSubway_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/main.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayAppDelegate.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayViewController.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/main.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayAppDelegate.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway normal armv6
+cCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayViewController.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway normal armv7
+cCreateUniversalBinary /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway normal "armv6 armv7"
+cGenerateDSYMFile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app.dSYM /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway
+cProcessProductPackaging "/Users/tfearn/Library/MobileDevice/Provisioning Profiles/B3B34102-F95A-4BA8-BD4E-D4F5D4451AAA.mobileprovision" /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/embedded.mobileprovision
+cTouch /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent
+cCodeSign /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+cValidate /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.h
+c000000004CD8672500000000000001E3
+t1289250597
+s483
+i<UIKit/UIKit.h>
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m
+c000000004CD873A60000000000000AB8
+t1289253798
+s2744
+i"DaSubwayAppDelegate.h"
+i"DaSubwayViewController.h"
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.h
+c000000004CD86C0100000000000001B9
+t1289251841
+s441
+i<UIKit/UIKit.h>
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m
+c000000004CD86D300000000000000607
+t1289252144
+s1543
+i"DaSubwayViewController.h"
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway-icon.png
+c000000004CD874B60000000000001C49
+t1289254070
+s7241
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubwayViewController.xib
+c000000004CD86CC20000000000004F53
+t1289252034
+s20307
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway_Prefix.pch
+c000000004CD8672500000000000000B9
+t1289250597
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/MainWindow.xib
+c000000004CD867250000000000004E35
+t1289250597
+s20021
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent
+t1289254596
+s410
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway
+t1289254596
+s18644
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway.LinkFileList
+c000000004CD876C100000000000001BC
+t1289254593
+s444
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayAppDelegate.o
+t1289254596
+s46772
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayViewController.o
+t1289254596
+s41684
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/main.o
+t1289254596
+s6480
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway
+t1289254596
+s18644
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway.LinkFileList
+c000000004CD876C100000000000001BC
+t1289254593
+s444
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayAppDelegate.o
+t1289254596
+s46780
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayViewController.o
+t1289254596
+s41660
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/main.o
+t1289254596
+s6460
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+t1289254597
+s442
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app.dSYM
+t1289254596
+s102
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway
+t1289254596
+s43220
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway-icon.png
+t1289254595
+s8421
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubwayViewController.nib
+t1289254595
+s1335
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/Info.plist
+t1289254594
+s769
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/MainWindow.nib
+t1289254594
+s1125
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/PkgInfo
+t1289254594
+s8
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/ResourceRules.plist
+t1289254594
+s485
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/embedded.mobileprovision
+t1289254596
+s8699
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/nysubwaymap.jpg
+t1289254595
+s1144844
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m
+c000000004CD867250000000000000168
+t1289250597
+s360
+i<UIKit/UIKit.h>
+
+N/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/nysubwaymap.jpg
+c000000004C5AE2F8000000000011780C
+t1281024760
+s1144844
+
+N/Users/tfearn/Library/MobileDevice/Provisioning Profiles/B3B34102-F95A-4BA8-BD4E-D4F5D4451AAA.mobileprovision
+c000000004CC976E700000000000021FB
+t1288271591
+s8699
+
+N/var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch.gch
+t1289254596
+s10114608
+
+N/var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch.gch
+t1289254595
+s9659952
+
+NDaSubway-Info.plist
+c000000004CD876C10000000000000398
+t1289254593
+s920
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310947393#310947394#0(0"0(0#1#0"8600399680#0"0#
+
+CCodeSign /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+s310947396.992769
+e310947397.314131
+r1
+xCodeSign
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+lSLF07#2@44"CodeSign build/Release-iphoneos/DaSubway.app310947396#310947397#0(0"0(0#0#91"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app8622776480#725"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Todd Fearn (3TVVZ6J6JA)" --resource-rules=/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/ResourceRules.plist --entitlements /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app0#
+
+CCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayAppDelegate.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310947396.192675
+e310947396.409469
+r1
+xCompileC
+xbuild/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayAppDelegate.o
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m310947396#310947396#0(0"0(0#0#85"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m8621616928#2028"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv6 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayAppDelegate.o0#
+
+CCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayViewController.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310947396.291546
+e310947396.585109
+r1
+xCompileC
+xbuild/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayViewController.o
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m310947396#310947396#0(0"0(0#0#88"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m8620188736#2034"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv6 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubwayViewController.o0#
+
+CCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/main.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310947396.190258
+e310947396.291428
+r1
+xCompileC
+xbuild/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/main.o
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m310947396#310947396#0(0"0(0#0#62"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m8622139296#1990"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv6 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayAppDelegate.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310947396.495734
+e310947396.705456
+r1
+xCompileC
+xbuild/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayAppDelegate.o
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m310947396#310947396#0(0"0(0#0#85"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m8609594304#2028"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv7 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayAppDelegate.m -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayAppDelegate.o0#
+
+CCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayViewController.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310947396.641591
+e310947396.814858
+r1
+xCompileC
+xbuild/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayViewController.o
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m310947396#310947396#0(0"0(0#0#88"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m8619901344#2034"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv7 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/Classes/DaSubwayViewController.m -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubwayViewController.o0#
+
+CCompileC build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/main.o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310947396.411777
+e310947396.495629
+r1
+xCompileC
+xbuild/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/main.o
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m310947396#310947396#0(0"0(0#0#62"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m8618410752#1990"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv7 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/main.m -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubwayViewController.xib
+s310947394.085563
+e310947395.042549
+r1
+xCompileXIB
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubwayViewController.xib
+lSLF07#2@37"CompileXIB DaSubwayViewController.xib310947394#310947395#0(0"0(0#0#82"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubwayViewController.xib8621529248#620"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubwayViewController.nib /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubwayViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/MainWindow.xib
+s310947394.065447
+e310947395.003095
+r1
+xCompileXIB
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310947394#310947395#0(0"0(0#0#70"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/MainWindow.xib8621858592#596"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/MainWindow.nib /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPNGFile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway-icon.png DaSubway-icon.png
+s310947395.010575
+e310947395.047407
+r1
+xCopyPNGFile
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway-icon.png
+xDaSubway-icon.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/DaSubway.app/DaSubway-icon.png DaSubway-icon.png310947395#310947395#0(0"0(0#0#73"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway-icon.png8619704256#628"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway-icon.png /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway-icon.png0#
+
+CCpResource build/Release-iphoneos/DaSubway.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s310947394.006317
+e310947394.060699
+r1
+xCpResource
+xbuild/Release-iphoneos/DaSubway.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist310947394#310947394#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8622425184#538"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app0#
+
+CCpResource build/Release-iphoneos/DaSubway.app/nysubwaymap.jpg nysubwaymap.jpg
+s310947395.003195
+e310947395.082645
+r1
+xCpResource
+xbuild/Release-iphoneos/DaSubway.app/nysubwaymap.jpg
+xnysubwaymap.jpg
+lSLF07#2@20"Copy nysubwaymap.jpg310947395#310947395#0(0"0(0#0#71"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/nysubwaymap.jpg8596302560#520"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/nysubwaymap.jpg /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app0#
+
+CCreateUniversalBinary /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway normal "armv6 armv7"
+s310947396.849117
+e310947396.872256
+r1
+xCreateUniversalBinary
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Release-iphoneos/DaSubway.app/DaSubway normal "armv6 armv7"310947396#310947396#0(0"0(0#0#67"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/armv6 armv78608119328#600"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway -output /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway0#
+
+CGenerateDSYMFile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app.dSYM /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway
+s310947396.872358
+e310947396.939004
+r1
+xGenerateDSYMFile
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app.dSYM
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway
+lSLF07#2@102"GenerateDSYMFile build/Release-iphoneos/DaSubway.app.dSYM build/Release-iphoneos/DaSubway.app/DaSubway310947396#310947396#0(0"0(0#0#100"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway8603334400#420"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/DaSubway -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app.dSYM0#
+
+CLd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway normal armv6
+s310947396.585279
+e310947396.641484
+r1
+xLd
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway
+xnormal
+xarmv6
+lSLF07#2@143"Link /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway310947396#310947396#0(0"0(0#0#0"8621916192#958"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -filelist /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway.LinkFileList -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv6/DaSubway0#
+
+CLd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway normal armv7
+s310947396.814953
+e310947396.848998
+r1
+xLd
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway
+xnormal
+xarmv7
+lSLF07#2@143"Link /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway310947396#310947396#0(0"0(0#0#0"8611212608#958"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -filelist /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway.LinkFileList -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/Objects-normal/armv7/DaSubway0#
+
+CProcessInfoPlistFile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/Info.plist DaSubway-Info.plist
+s310947394.007804
+e310947394.065312
+r1
+xProcessInfoPlistFile
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/Info.plist
+xDaSubway-Info.plist
+lSLF07#2@27"Process DaSubway-Info.plist310947394#310947394#0(0"0(0#0#75"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway-Info.plist8622202336#640"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DaSubway-Info.plist -genpkginfo /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/ResourceRules.plist -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/Info.plist0#
+
+CProcessPCH /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch.gch DaSubway_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s310947395.084320
+e310947396.190151
+r1
+xProcessPCH
+x/var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch.gch
+xDaSubway_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile DaSubway_Prefix.pch310947395#310947396#0(0"0(0#0#75"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway_Prefix.pch8628501312#1868"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv7 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway_Prefix.pch -o /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-apgqduqldsgwtbbfsctlhaghixpx/DaSubway_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch.gch DaSubway_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s310947395.083018
+e310947396.005738
+r1
+xProcessPCH
+x/var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch.gch
+xDaSubway_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile DaSubway_Prefix.pch310947395#310947396#0(0"0(0#0#75"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway_Prefix.pch8610098112#1868"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-generated-files.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-own-target-headers.hmap -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-all-target-headers.hmap -iquote /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway-project-headers.hmap -F/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/include -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources/armv6 -I/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway_Prefix.pch -o /var/folders/El/ElBS8q05Glijbc2BUhOvSU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaSubway_Prefix-dkteyqhraiaayvaotrbrypmxegra/DaSubway_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/tfearn/Library/MobileDevice/Provisioning Profiles/B3B34102-F95A-4BA8-BD4E-D4F5D4451AAA.mobileprovision" /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/embedded.mobileprovision
+s310947396.939116
+e310947396.946871
+r1
+xProcessProductPackaging
+x/Users/tfearn/Library/MobileDevice/Provisioning Profiles/B3B34102-F95A-4BA8-BD4E-D4F5D4451AAA.mobileprovision
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/tfearn/Library/MobileDevice/Provisioning Profiles/B3B34102-F95A-4BA8-BD4E-D4F5D4451AAA.mobileprovision" build/Release-iphoneos/DaSubway.app/embedded.mobileprovision310947396#310947396#0(0"0(0#0#116"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/embedded.mobileprovision8601437120#461"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/tfearn/Library/MobileDevice/Provisioning Profiles/B3B34102-F95A-4BA8-BD4E-D4F5D4451AAA.mobileprovision" -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent
+s310947396.971682
+e310947396.992696
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent
+lSLF07#2@180"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent310947396#310947396#0(0"0(0#0#123"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent8623644320#471"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/DaSubway.build/Release-iphoneos/DaSubway.build/DaSubway.xcent0#
+
+CTouch /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+s310947396.946944
+e310947396.971580
+r1
+xTouch
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+lSLF07#2@97"Touch /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app310947396#310947396#0(0"0(0#0#0"8595030496#301"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app0#
+
+CValidate /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+s310947397.314217
+e310947398.021494
+r1
+xValidate
+x/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app
+lSLF07#2@44"Validate build/Release-iphoneos/DaSubway.app310947397#310947398#0(0"0(0#0#91"/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app8620672256#410"    cd /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/build/Release-iphoneos/DaSubway.app0#
+

@@ -1,0 +1,95 @@
+//
+//  DaSubwayViewController.m
+//  DaSubway
+//
+//  Created by Todd Fearn on 11/8/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "DaSubwayViewController.h"
+
+@implementation DaSubwayViewController
+@synthesize scrollView;
+@synthesize imageView;
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    
+    float zoomScale = 0.50;
+    CGPoint contentOffset = CGPointMake(75, 500);
+    
+    NSString *contentOffsetX = [[NSUserDefaults standardUserDefaults] stringForKey:@"content_offset_x"];
+    if(contentOffsetX != nil)
+       contentOffset.x = [contentOffsetX floatValue];
+    NSString *contentOffsetY = [[NSUserDefaults standardUserDefaults] stringForKey:@"content_offset_y"];
+    if(contentOffsetY != nil)
+        contentOffset.y = [contentOffsetY floatValue];
+    NSString *zoomScaleS = [[NSUserDefaults standardUserDefaults] stringForKey:@"zoom_scale"];
+    if(zoomScaleS != nil)
+        zoomScale = [zoomScaleS floatValue];
+	
+	self.scrollView.minimumZoomScale=0.20;
+    self.scrollView.maximumZoomScale=2.0;
+	self.scrollView.contentSize = CGSizeMake(2479, 2994);
+    self.scrollView.delegate=self;
+	self.scrollView.clipsToBounds = YES;
+	self.scrollView.zoomScale= zoomScale;
+
+	[scrollView setContentOffset:contentOffset animated:YES];
+	
+    // Listen for Double Tap Zoom
+    UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+    [doubleTap setNumberOfTapsRequired:2];
+    [self.scrollView addGestureRecognizer:doubleTap];
+    [doubleTap release];
+    
+    [super viewDidLoad];
+}
+
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return YES;
+}
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+}
+
+
+- (void)dealloc {
+	[scrollView release];
+	[imageView release];
+	
+    [super dealloc];
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    return self.imageView;
+}
+
+- (void)handleDoubleTap:(UIGestureRecognizer *)recognizer {
+    float zoomScale = self.scrollView.zoomScale;
+    if(zoomScale != 2.0)
+        [self.scrollView setZoomScale:2.0 animated:YES];
+    else
+        [self.scrollView setZoomScale:0.5 animated:YES];
+}
+
+- (void)saveImageSettings {
+    CGPoint contentOffset = [self.scrollView contentOffset];
+    float zoomScale = self.scrollView.zoomScale;
+    
+    [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%f", contentOffset.x] forKey:@"content_offset_x"];
+    [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%f", contentOffset.y] forKey:@"content_offset_y"];
+    [[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%f", zoomScale] forKey:@"zoom_scale"];
+}
+
+@end

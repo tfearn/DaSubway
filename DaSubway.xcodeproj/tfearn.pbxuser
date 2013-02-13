@@ -1,0 +1,187 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* DaSubwayAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1079}}";
+			sepNavSelRange = "{686, 0}";
+			sepNavVisRange = "{0, 1760}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* DaSubway */ = {
+		activeExec = 0;
+		executables = (
+			A8E02B0A12889EA5003E9D27 /* DaSubway */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* DaSubwayViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 664}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRange = "{0, 441}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* DaSubwayViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 832}}";
+			sepNavSelRange = "{769, 0}";
+			sepNavVisRange = "{0, 1392}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = A8E02B0A12889EA5003E9D27 /* DaSubway */;
+		activeSDKPreference = iphoneos4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* DaSubway */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* DaSubway */,
+		);
+		codeSenseManager = A8E02B2312889EAD003E9D27 /* Code sense */;
+		executables = (
+			A8E02B0A12889EA5003E9D27 /* DaSubway */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1046,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311044284;
+			PBXWorkspaceStateSaveDate = 311044284;
+		};
+		perUserProjectItems = {
+			A8E02B5C1288A73D003E9D27 /* PBXBookmark */ = A8E02B5C1288A73D003E9D27 /* PBXBookmark */;
+			A8E02BB31288B38F003E9D27 /* PBXTextBookmark */ = A8E02BB31288B38F003E9D27 /* PBXTextBookmark */;
+			A8E02BB41288B38F003E9D27 /* PBXBookmark */ = A8E02BB41288B38F003E9D27 /* PBXBookmark */;
+			A8E02BB51288B38F003E9D27 /* PBXTextBookmark */ = A8E02BB51288B38F003E9D27 /* PBXTextBookmark */;
+			A8E02BB61288B38F003E9D27 /* PBXTextBookmark */ = A8E02BB61288B38F003E9D27 /* PBXTextBookmark */;
+			A8E02BBE1288B7D9003E9D27 /* PlistBookmark */ = A8E02BBE1288B7D9003E9D27 /* PlistBookmark */;
+			A8FA00C2128A2A6D00E5E479 /* PlistBookmark */ = A8FA00C2128A2A6D00E5E479 /* PlistBookmark */;
+		};
+		sourceControlManager = A8E02B2212889EAD003E9D27 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A8E02B0A12889EA5003E9D27 /* DaSubway */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DaSubway;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A8E02B2212889EAD003E9D27 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A8E02B2312889EAD003E9D27 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A8E02B5C1288A73D003E9D27 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8E02B2612889FF5003E9D27 /* nysubwaymap.jpg */;
+	};
+	A8E02BB31288B38F003E9D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DaSubwayAppDelegate.m */;
+		name = "DaSubwayAppDelegate.m: 29";
+		rLen = 0;
+		rLoc = 686;
+		rType = 0;
+		vrLen = 1760;
+		vrLoc = 0;
+	};
+	A8E02BB41288B38F003E9D27 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8E02B8A1288AC4A003E9D27 /* DaSubway-icon.png */;
+	};
+	A8E02BB51288B38F003E9D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* DaSubwayViewController.h */;
+		name = "DaSubwayViewController.h: 10";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	A8E02BB61288B38F003E9D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DaSubwayViewController.m */;
+		name = "DaSubwayViewController.m: 29";
+		rLen = 0;
+		rLoc = 769;
+		rType = 0;
+		vrLen = 1392;
+		vrLoc = 0;
+	};
+	A8E02BBE1288B7D9003E9D27 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* DaSubway-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A8FA00C2128A2A6D00E5E479 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* DaSubway-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/DaSubway/DaSubway-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}
