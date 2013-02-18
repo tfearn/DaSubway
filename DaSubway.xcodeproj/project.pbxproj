@@ -15,8 +15,11 @@
 		2899E5220DE3E06400AC0155 /* DaSubwayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DaSubwayViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* DaSubwayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DaSubwayViewController.m */; };
+		A849184516D2B1A8002DF4A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A849184316D2B1A8002DF4A0 /* Default-568h@2x.png */; };
+		A849184616D2B1A8002DF4A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A849184416D2B1A8002DF4A0 /* Default@2x.png */; };
+		A849184916D2B383002DF4A0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A849184716D2B383002DF4A0 /* icon.png */; };
+		A849184A16D2B383002DF4A0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A849184816D2B383002DF4A0 /* icon@2x.png */; };
 		A8E02B2712889FF5003E9D27 /* nysubwaymap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8E02B2612889FF5003E9D27 /* nysubwaymap.jpg */; };
-		A8E02B8B1288AC4A003E9D27 /* DaSubway-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E02B8A1288AC4A003E9D27 /* DaSubway-icon.png */; };
 		E08AB5C716CC15680034CB97 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E08AB5C616CC15680034CB97 /* libFlurry.a */; };
 		E08AB5C916CC158F0034CB97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08AB5C816CC158F0034CB97 /* SystemConfiguration.framework */; };
 		E08AB5CB16CC16C30034CB97 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E08AB5CA16CC16C30034CB97 /* Default.png */; };
@@ -36,8 +39,11 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* DaSubway_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaSubway_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DaSubway-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DaSubway-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A849184316D2B1A8002DF4A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A849184416D2B1A8002DF4A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A849184716D2B383002DF4A0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A849184816D2B383002DF4A0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		A8E02B2612889FF5003E9D27 /* nysubwaymap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nysubwaymap.jpg; sourceTree = "<group>"; };
-		A8E02B8A1288AC4A003E9D27 /* DaSubway-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DaSubway-icon.png"; sourceTree = "<group>"; };
 		E08AB5C516CC15680034CB97 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		E08AB5C616CC15680034CB97 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		E08AB5C816CC158F0034CB97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -106,8 +112,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A849184716D2B383002DF4A0 /* icon.png */,
+				A849184816D2B383002DF4A0 /* icon@2x.png */,
+				A849184316D2B1A8002DF4A0 /* Default-568h@2x.png */,
+				A849184416D2B1A8002DF4A0 /* Default@2x.png */,
 				E08AB5CA16CC16C30034CB97 /* Default.png */,
-				A8E02B8A1288AC4A003E9D27 /* DaSubway-icon.png */,
 				A8E02B2612889FF5003E9D27 /* nysubwaymap.jpg */,
 				8D1107310486CEB800E47090 /* DaSubway-Info.plist */,
 			);
@@ -198,8 +207,11 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* DaSubwayViewController.xib in Resources */,
 				A8E02B2712889FF5003E9D27 /* nysubwaymap.jpg in Resources */,
-				A8E02B8B1288AC4A003E9D27 /* DaSubway-icon.png in Resources */,
 				E08AB5CB16CC16C30034CB97 /* Default.png in Resources */,
+				A849184516D2B1A8002DF4A0 /* Default-568h@2x.png in Resources */,
+				A849184616D2B1A8002DF4A0 /* Default@2x.png in Resources */,
+				A849184916D2B383002DF4A0 /* icon.png in Resources */,
+				A849184A16D2B383002DF4A0 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +235,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: iDATA Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iDATA Corporation";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -237,8 +249,8 @@
 					"\"$(SRCROOT)/external/Flurry\"",
 				);
 				PRODUCT_NAME = DaSubway;
-				PROVISIONING_PROFILE = "60EA8DCF-73E4-4C88-8A3F-F3CCE0921E5C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60EA8DCF-73E4-4C88-8A3F-F3CCE0921E5C";
+				PROVISIONING_PROFILE = "66F3DCCD-6418-46F3-A0BD-0AEDA7507CD2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66F3DCCD-6418-46F3-A0BD-0AEDA7507CD2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -247,8 +259,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: iDATA Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iDATA Corporation";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DaSubway_Prefix.pch;
@@ -259,8 +271,8 @@
 					"\"$(SRCROOT)/external/Flurry\"",
 				);
 				PRODUCT_NAME = DaSubway;
-				PROVISIONING_PROFILE = "60EA8DCF-73E4-4C88-8A3F-F3CCE0921E5C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "60EA8DCF-73E4-4C88-8A3F-F3CCE0921E5C";
+				PROVISIONING_PROFILE = "66F3DCCD-6418-46F3-A0BD-0AEDA7507CD2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66F3DCCD-6418-46F3-A0BD-0AEDA7507CD2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
